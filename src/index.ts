@@ -124,7 +124,7 @@ export const build: BuildV3 = async ({
       // Located at /var/task/lib (shared libs)
       ...runtimeFiles
     },
-    handler: 'launcher.launcher',
+    handler: 'launcher.js',
     runtime: nodeVersion.runtime,
     environment: {
       NOW_ENTRYPOINT: entrypoint,
